@@ -1,6 +1,5 @@
 # Getting started with Message Hub
 
-***
 
 # Overview
 IBM® Message Hub is a scalable, distributed, high throughput messaging service built on the top of Apache Kafka. It underpins the integration of your on-premise and off-premise cloud services and technologies. In this lab you will deploy and explore two sample applications using Message Hub on Bluemix.
@@ -48,7 +47,7 @@ In this step you will build the sample code, create an instance of Message Hub i
         - "message-hub-service"
     ```
 
-4.  Remove the `random-route` item and edit the name, appending your initials and the date to make a unique route. Save the `manifest.yml` file.
+4.  Remove the `random-route` item and edit the `name`, appending your initials and the date to make a unique route. Save the `manifest.yml` file.
 
 5.  The `manifest.yml` file references a Message Hub service named `message-hub-service`, create it using (substitute Bluemix region as needed):
 
@@ -193,11 +192,11 @@ In this step, you will build and run from the command line another message produ
 
     ![](lab_images/mixed_messages.png)
 
-    > You will see that each application has a unique id, but that the offset, which is returned from the topic with each consumed message is regularly increasing. The offset works as an index into messages in the topic.
+    > You will see that each producer has a unique id sequence, but that the offset, which is returned from the topic with each consumed message is regularly increasing. The offset works as an index into messages in the topic.
 
 8.  Use `ctrl-c` in the terminal to halt the console producer application.
 
 9.  If you like, you can change the role of the console application to that of a consumer by repeating the command above and replacing `-producer` with `-consumer`.
 
 ## Summary
-Celery quandong swiss chard chicory earthnut pea potato. Salsify taro catsear garlic gram celery bitterleaf wattle seed collard greens nori. Grape wattle seed kombu beetroot horseradish carrot squash brussels sprout chard.
+This lab introduced two sample applications that use the java kafka producer/consumer api. You also learned how to create an instance of the Message Hub service and read the credentials of a service bound to an application using the Cloud Foundry CLI.
