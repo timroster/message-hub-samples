@@ -4,8 +4,7 @@ applications:
   instances: 1
   buildpack: liberty-for-java
   domain: mybluemix.net 
-  name: MessageHubLibertyApp
+  name: MessageHubLibertyApp-tor-1709
   disk_quota: 1024M
-  random-route: true
   services:
     - "message-hub-service"

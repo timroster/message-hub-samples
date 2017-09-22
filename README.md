@@ -1,9 +1,11 @@
 # message-hub-samples
 IBM Message Hub is a scalable, distributed, high throughput message bus to unite your on-premise and off-premise cloud technologies. You can wire micro-services together using open protocols, connect stream data to analytics to realise powerful insight and feed event data to multiple applications to react in real time.
 
-This repository is for samples which interact with the Message Hub service. 
+This repository is for samples which interact with the Message Hub service.
 Currently, there are samples for the Kafka, MQ Light and REST APIs.
 Information and instructions regarding the use of these samples can be found in their respective directories.
+
+There's also a step-by-step [hands-on lab](LAB_README.md) which you can use to explore the java liberty and console samples.
 
 ### Kafka API (recommended):
 * kafka-java-console-sample : Sample Java console application using the Message Hub Kafka API
